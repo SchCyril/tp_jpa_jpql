@@ -87,7 +87,7 @@ public class ActeurRepositoryTest {
 	}
 
 	/**
-	 * Extraire la liste de tous les acteurs ayant joué dans un film français
+	 * Extraire la liste de tous les acteurs ayant joué dans un film dont le pays d'origine est France
 	 */
 	@Test
 	public void testExtraireActeursParPays() {
@@ -97,8 +97,8 @@ public class ActeurRepositoryTest {
 	}
 
 	/**
-	 * Extraire la liste de tous les acteurs ayant joué dans un film français paru
-	 * en 2017
+	 * Extraire la liste de tous les acteurs ayant joué dans un film paru en 2017 et dont le pays d'origine
+	 * est France
 	 */
 	@Test
 	public void testExtraireActeursParListePaysEtAnnee() {
