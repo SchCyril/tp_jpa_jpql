@@ -64,7 +64,7 @@ public class ActeurRepositoryTest {
 	}
 
 	/**
-	 * Extraire la liste des actrices ayant joué le rôle d'Harley QUINN
+	 * Extraire la liste des actrices ayant joué le rôle d'Harley Quinn
 	 */
 	@Test
 	public void testExtraireActeursParRole() {
