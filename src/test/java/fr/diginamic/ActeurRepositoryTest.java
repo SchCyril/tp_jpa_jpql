@@ -62,7 +62,7 @@ public class ActeurRepositoryTest {
      */
     @Test
     public void testExtraireActeursParAnneeNaissance() {
-        TypedQuery<Acteur> query = em.createQuery("SELECT a FROM Acteur a where YEAR(a.anniversaire) = :x",
+        TypedQuery<Acteur> query = em.createQuery("SELECT a FROM Acteur a where YEAR(a.anniversaire) = :x" ,
                 Acteur.class);
         query.setParameter("x", 1985);
         List<Acteur> acteurs = query.getResultList();
